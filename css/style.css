@@ -1,0 +1,38 @@
+
+table  .Row1, .Row2, .Row3 {
+
+}
+
+table {
+
+  width: 300px;
+
+  table-layout: auto;
+  margin: 50px 0 50px 300px;
+}
+#ticTac {
+  width: 800px;
+  height: 800px;
+}
+thead {
+
+  height: 200px;
+  width: 200px;
+  box-sizing: content-box;
+  position: relative;
+  border: red;
+
+}
+ td{
+
+}
+ tr{
+
+}
+
+input {
+  width: 200px;
+  height: 200px;
+  border: none;
+  background-color: black;
+}

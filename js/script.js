@@ -11,12 +11,21 @@ function clickBtn(btn) {
 	you +=1;
 }
 }
+var checkedBoxesArray = [];
+for (var i = 0; i > boxesArray.length; i++) {
+	checkedBoxesArray.push(boxes[i]);
+}
+if (checkedBoxesArray.length >= 9) {
+	alert("Game over");
+}	
 
 function threeInARow() {
 if (document.getElementById('box1').value == "X" && document.getElementById('box2').value == "X" && document.getElementById('box3').value == "X") {
 	return alert("You're a winner!");
 }	
 }
+
+
 var winningComboArray = [[0,4,7], [6,4,2], [0,3,6], [0,1,2], [2,5,8], [1,4,7], [3,4,5], [6,7,8]];
 var boxesArray = ['box1', 'box2', 'box3', 'box4', 'box5', 'box6', 'box7', 'box8', 'box9'];
 for (var i = 0; i > boxesArray.length; i++) {

@@ -1,13 +1,17 @@
+html {
+  background-color: black;
+}
 table {
 
   width: 300px;
 
   table-layout: auto;
-  margin: 50px 0 50px 300px;
+  margin: 0 0 50px 300px;
 }
-#ticTac {
-  width: 800px;
-  height: 800px;
+.ticTac {
+  width: 1424px;
+  height: 600%;
+  background-color: black;
 }
 thead {
 
@@ -23,13 +27,30 @@ thead {
   font-size: 50px;
 
 }
- tr{
-
+#heading {
+ font-size: 100px;
+ text-align: center;
+ margin-right: 140px;
+ color: red;
+ }
+ #bodyDown{
+  background-color: rgb(122458);
 }
-
+#headDown {
+background-color: "black";
+}
+#btn-reset {
+  width: 180px;
+  height: 70px;
+  color: red;
+  background-color: blue;
+  border-radius: 20px;
+  margin-left: 560px;
+  margin-top: -200px;
+}
 input {
-  width: 200px;
-  height: 200px;
+  width: 230px;
+  height: 230px;
   border: none;
   color: black;
   font-size: 50px;
